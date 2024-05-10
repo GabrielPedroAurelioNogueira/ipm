@@ -1,0 +1,239 @@
+@charset "UTF-8";
+body, html{
+    margin: 0;
+    padding: 0;
+  max-width: 100vw;
+    max-height: 100vh;
+    font-family: serif;
+}
+:root{
+    --font1:Courier New;
+    --font2:Segoe Script;
+}
+body{
+  position: relative;
+}
+/*Header config*/
+header{
+ max-width: 100%;
+ background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+ background-size: cover;
+ background-position: bottom center;
+}
+header #logo{
+    color: #7300ff;   
+    font-family:serif;
+}
+header .blue{
+    background-color: #1a1a1a;
+    display: flex;
+    color: #fff;
+  justify-content: space-between;
+  align-items: center;
+    border-bottom: 3px solid #7300ff;
+    height: 50px;
+}
+header .blue nav ul.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  
+}
+
+header .blue nav ul.menu li{
+margin: auto 5px;
+}
+
+header .blue nav ul.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15pt;
+    position: relative;
+    padding: 5px 5px 0px 5px;
+ 
+ 
+}
+
+header .blue nav ul.menu li a::after{
+    position: absolute;
+    border-radius: 5px ;
+    top: 100%;
+    left: 0;
+    content: " ";
+    width: 0%;
+    height: 3px;
+  background-image: linear-gradient(to right, transparent,  #7300ff);
+    transition: .8s ease-in-out;
+}
+header .blue nav .menu .activo a{
+    color: #7300ff ;
+}
+header .blue nav .menu .activo a::after{
+    width: 100%;
+   
+}
+header .blue nav ul.menu li:hover a::after{
+    width: 100%;
+}
+header #b {
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+ 
+header #big{
+    text-align: center;
+ height: 150px;
+ background-color: #00000089;
+ 
+ 
+ 
+ 
+ color: #ffffff;
+ padding: 20px;
+}
+
+/*Main*/
+ 
+main{
+    max-width: 800px;
+    margin:50px auto;
+ 
+    padding: 10px;
+}
+main h1{
+    border-bottom: 3px solid #000000;
+    margin-left: 10px;
+    text-indent: 10px;
+    border-bottom-left-radius: 5px;
+    color: #000000;
+  /*  background-image: linear-gradient(to right, #5900ff, transparent);*/
+}
+main section.about-school{
+    text-align: justify;
+    text-indent: 30px;
+    width: 100%;
+}
+main section.about-school figure{
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+ max-width: 100%;
+ font-family:Californian FB ;
+ font-weight: 900;
+ 
+}
+main .about-school figure img{
+    
+    margin:10px auto ;
+}
+main .about-school div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .about-school div p{
+    text-align: center;
+    font-variant: small-caps;
+    font-family:Californian FB ;
+    font-weight: 900;
+}
+ 
+main .about-school div video{
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px black;
+}
+main .estrutura{
+ display: block;
+}
+main .estrutura div{
+    width: 100%;
+    text-align: center;
+}
+main .estrutura .estrutura-parent{
+    display:flex;
+   overflow: scroll;
+}
+main .estrutura .estrutura-child{
+    width: 100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+    flex: 1 0 200px;
+
+}
+main .estrutura .img-infraestrutura-direcao{
+    width: 350px;
+}
+
+ 
+@keyframes a{
+    from{
+        background-image: linear-gradient(circle, #6a00ff , #282828);
+    }
+    to{
+        background-image:radial-gradient(circle,#282828, #6a00ff  );
+    }
+}
+ /*Footer*/
+footer{
+ 
+    color: #fff;
+    text-align: center;
+ background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+ background-size:  cover;
+ 
+ 
+}
+aside {
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #00000085;
+    align-items: center;
+}
+ aside #midia{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+ }
+ 
+aside .midia img{
+  width: 30px;
+  border-radius: 50%;
+
+}
+ 
+aside{
+    text-align: center;
+    margin-bottom: 40px;
+}
+aside div{
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+ 
+ 
+footer p{
+ 
+}
+footer p a{
+    text-decoration: none;
+    color: #fff;
+ 
+ 
+ 
+}
+footer p a:hover{
+    color: #ffffff;
+ 
+    
+}
+footer p a img{
+    width: 150px;
+}

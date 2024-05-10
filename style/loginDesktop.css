@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image:url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg)
+    }
+    header{
+    
+        width: 100%;
+       background-color: #0000009b;
+     height: 70px;
+     
+     position: fixed;
+   
+    z-index: 1;
+    }
+     
+     
+      nav {
+       height: 100%;
+     
+        border-bottom: 4px solid #4c00ff;
+       display: flex;
+      
+       flex-direction: row;
+ justify-content: space-around;
+        
+      }
+     nav a{
+        margin-top: -3px;
+    width: 100%;
+    margin-left: 2px;
+        padding: 24px;
+     }
+    main{
+        
+        width: 90%;
+        height: 600px;
+        border: none
+        ;
+        box-shadow: 20px 10px 50px black;
+    }
+    main #img{
+        float: left;
+        height: 100%;
+        display: block;
+        width: 40%;
+        background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: top left
+        ;
+        }
+        main #form{
+            float: right;
+height: 100%;
+width: 60%;
+        }
+    
+}
+@media screen and (min-width:992px) {
+body{
+    background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg)
+}
+main{
+    width: 900px;
+    height: 550px
+    ;
+    border: none;
+ 
+}
+main #img{
+    float: right;
+    height: 100%;
+    display: block;
+        width: 50%;       
+        background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\ \(1\).jpg);   
+    background-size: cover;
+    background-position: center center
+    ;
+    }
+    main #form{
+
+        float: left;
+height: 100%;
+width: 50%;
+    }
+
+ 
+
+
+
+}
+@media  (min-height:560px) {
+    nav a{
+        height: 40%;
+       text-decoration: none; 
+       color: #ffffff;
+   display: grid;
+   justify-items: center;
+   align-items: center;
+     
+    }
+    @media  (max-height:559px) {
+        nav a{
+            height: 40%;
+           text-decoration: none; 
+           color: #ffffff;
+       display: grid;
+       justify-items: center;
+       align-items: center;
+         
+        }
+}
+}
+@media  (min-height:50px) {
+    nav a{
+        height: 40%;
+       text-decoration: none; 
+       color: #ffffff;
+   display: grid;
+   justify-items: center;
+   align-items: center;
+     
+    }
+}

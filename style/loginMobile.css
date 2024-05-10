@@ -1,0 +1,154 @@
+@charset "UTF-8";
+html, body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    
+  
+}
+body{
+ 
+    background-attachment: fixed;
+    background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+    background-size: cover;
+    height: 100vh;
+   position: relative;
+}
+header{
+    
+    width: 105px;
+   background-color: #0000009b;
+ height: 100%;
+ 
+ position: fixed;
+height: 100%;
+z-index: 1;
+}
+ 
+ 
+  nav {
+   height: 100%;
+ 
+    box-shadow: 4px 0px  0px  #7300ff;
+   display: flex;
+   flex-direction: column;
+   
+
+    
+  }
+ 
+  nav a{
+      height: 10%;
+     text-decoration: none; 
+     color: #ffffff;
+ display: grid;
+ justify-items: center;
+ align-items: center;
+   margin-top: 3px ;
+   margin-bottom: 3px;
+  }
+   
+  nav a:hover{
+     background-color:  #7300ff;
+  }
+  
+  nav a::after{
+    
+  }
+  nav a:hover::after{
+  
+  }
+  a.ativo{
+    background-color:  #7300ff
+  } 
+
+
+main{
+ 
+   min-width: 300px;
+    height: 525px;
+    border-radius: 20px;
+    background-color: #0000007a;
+    overflow: hidden;
+     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    transition: .8s ease-out  ;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+ box-sizing: border-box;
+ 
+}
+main form a:hover{
+    background-color:  #7300ff;
+}
+main form a{
+    text-decoration: none;
+    color: #ffffff;
+
+    background-color:   #7300ff;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+}
+h1{
+    color: #fff;
+    text-shadow: 1px 1px 2px  #7300ff;
+    text-align: center;
+}
+main #img{
+ display: none;
+}
+main #form{
+text-align: center;
+ 
+}
+div{
+    margin: 20px;
+}
+div label{
+    font-size: 14pt;
+}
+div input{
+    color: #fff;
+   background-color: #0000005f;
+    border: 1px solid  #7300ff;
+    border-radius: 5px;
+    height: 20px;
+    width: 80%;
+}
+select:focus{
+ border: none;
+
+}
+ 
+ 
+
+#login{
+    width: 100%;
+    background-color:   #7300ff;
+    color: #ffffff;
+    height: 40px;
+    border: none;
+}
+#login:hover{
+    background-color: #4c00ff ;
+}
+ #forgive:hover{
+    background-color: #4c00ff ;
+ }
+ footer{
+    position: absolute;
+    top:90%;
+ left: 50%;
+ 
+ }
+footer a{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+footer a img{
+    width: 100%;
+}

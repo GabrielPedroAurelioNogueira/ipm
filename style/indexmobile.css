@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body, html{
+    height: 100vh;
+}
+ 
+header #telamenu nav{
+    height: 100%;
+    width: 300;
+ padding: 20px;
+    background-color: rgb(27, 27, 27);
+    border-right:3px solid #ea00ff;
+}
+header #telamenu nav div{
+    color: #ffffff;
+    display: block;
+    text-align:center;
+  
+}
+header #telamenu nav div i{
+ 
+    font-style: normal;
+    font-size: 25pt;
+
+}
+ 
+header #telamenu nav a{
+    text-decoration: none;
+    color: #fff;
+ 
+    font-size: 20pt;
+    display: block;
+}
+header #telamenu nav a:hover{
+    background-color: #cc00ff;
+}
+header #telamenu nav ul li{
+    display: block;
+    text-align: center;
+
+}

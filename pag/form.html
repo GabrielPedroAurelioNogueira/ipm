@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login IPM</title>
+    <link rel="shortcut icon" href="../img/faviconimp.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/loginMobile.css">
+    <link rel="stylesheet" href="../style/loginDesktop.css">
+</head>
+<body onresize="change_size()">
+    <header>
+ 
+ <nav>
+  
+ 
+    <a href="index.html">Home</a>
+ 
+    <a href="library.html">Library</a>
+ 
+    <a href="form.html" class="ativo">Login</a>
+ 
+    <a href="news.html">News</a>
+ 
+ </nav>
+    </header>
+    <main>
+    <section id="img"></section>
+    <section id="form">
+        <h1>Instituto Politécnico do Maiombe</h1>
+        <form action="#" method="post" autocomplete="on">
+            <div>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome" class="area-campo"    itemprop="name" required autocomplete="name"><br>
+            </div>
+            <div>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email" itemprop="email" class="area-campo" required autocomplete="email"><br>
+            </div>
+            <div>
+                <label for="phone">Number Phone</label><br>
+                <input type="tel" name="phone" id="phone" class="area-campo" itemprop="phone" autocomplete="tel-national"><br>
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password"  required autocomplete="new-password"class="area-campo"   minlength="8"  maxlength="12" itemprop="password"><br>
+            </div>
+        
+                
+                    <div>
+                        <span>Selecione o seu curso</span>
+                        <input type="text" list="sd">
+                        <datalist id="sd">
+                            <option value="Infor">Informática</option>
+                            <option value="Infor de Gestão">Informática de Gestão</option>
+                            <option value="Contabilidade">Contabilidade de Gestão</option>
+                            <option value="Gestão Empresarial">Gestão Empresarial</option>
+                        </datalist>
+                   
+                        
+                    </div>
+              
+ <div>
+     
+            <input type="submit" value="Cadastrar" id="login" onclick="adicionar()">
+ </div>
+ <a href="#" id="forgive">Já estou cadastrado</a>
+        </form>
+    </section>
+    </main>
+    <footer>
+         
+            <a href="#"><img src="../img/ firma_evaStral.png" alt=""></a>
+      
+    </footer>
+    <script src="../script/login.js2"></script>
+</body>
+</html>
