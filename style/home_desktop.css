@@ -170,64 +170,9 @@ main .estrutura div img{
 }
  
  
-/*
+ 
 footer{
-background-color: #ffffff;
- display: grid;
- 
+ background-position: bottom;
 
-}
-footer article{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-footer aside {
-    display: grid;
-}
-footer h1{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    text-shadow: 1px 1px 1px #00000079;
-}
-footer aside div{
-    margin:10px auto;
-}
-footer aside div img{
- border-radius: 0;
- width: 30px;
- 
-}
-footer aside div a{
-    text-decoration:none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-footer aside div a span{
-    display:block;
-    color: #000;
-}
-footer aside div img:hover{
-    animation: luz .1s linear infinite;
-}
-footer section div{
-    text-align: center;
-    margin: 10px;
-}
-footer section div a{
-    color: rgb(0, 0, 0);
-    font-family: serif;
-    text-decoration: none;
-    
-}
-footer p{
-    color: #fff;
-    background-color: #000000;
-    text-align: center;
-    padding: 15px;
-}*/
- 
+} 
 }

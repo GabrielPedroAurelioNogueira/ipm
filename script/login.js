@@ -1,3 +1,35 @@
+let btn_icon=document.querySelector('#btn-icon').addEventListener("click",expandir)
+var menu= document.querySelector('#menu')
+
+function expandir(params) {
+    if (menu.style.width==150+'px') {
+        menu.style.width= 0+'px'
+    } else {
+        menu.style.width=150+'px'
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 var icon=document.getElementById('icon');
 icon.addEventListener('click',show)
 let list=document.getElementById('lista')
@@ -59,3 +91,4 @@ function getcurso(params) {
  }
  
 adicionar()
+*/

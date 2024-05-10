@@ -3,7 +3,7 @@
     body{
         background-image:url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg)
     }
-    header{
+   /* header{
     
         width: 100%;
        background-color: #0000009b;
@@ -30,7 +30,7 @@
     width: 100%;
     margin-left: 2px;
         padding: 24px;
-     }
+     }*/
     main{
         
         width: 90%;
