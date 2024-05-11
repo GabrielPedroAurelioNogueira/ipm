@@ -1,3 +1,13 @@
+@charset "utf-8";
+:root{
+--c1_menu:#7300ff;
+--c2_menu:#7300ffa0;
+--dark1:#262626;
+--dark2:#262626a8;
+--dark3:#171717;
+--white:#fff;
+}
+ 
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +18,7 @@ body{
     height: 100%;
 }
 header#head1{
-    background-color: rgb(0, 0, 0);
+    background-color:var(--c2_menu);
     display: block;
     color: #ffffff;
     position: sticky;
@@ -17,7 +27,7 @@ header#head1{
 }
 
 #head1 #menu{
-background-color:#262626a8;
+background-color: var(--dark2);
  overflow: hidden;
 position: fixed;
  height: 100vh;
@@ -26,7 +36,7 @@ position: fixed;
  flex-direction: column;
  
 gap:5px;
- border-right:5px solid  #7300ff;
+ border-right:5px solid  var(--c1_menu);
  transition: .8s ease-out;
  
 }
@@ -45,34 +55,34 @@ gap:5px;
  
 }
  #head1 #menu a:hover{
-    color: #ffffff;
-   background-color:  #7300ffa0;
+    color :var(--white);
+   background-color:   var(--c2_menu);
  
  }
  #head1 #menu a.a{
-    background-color:  #7300ffa0;
+    background-color:  var(--c2_menu);
  }
 
 #head1 #icons{
-    background-color: #292929;
+    background-color: var(--dark3);
  
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:10px 20px;
-    border-bottom: 5px solid  #7300ff;
+    border-bottom: 5px solid  var(--c1_menu);
 }
 #icon{
     cursor: pointer;
     font-size: 30pt;
 }
 #icons h1{
-color:   #7300ff;
+color:   var(--c1_menu);
 transition: .5s ease-in-out;
 font-family:  serif;
 }
 #icon:hover{
-    color:   #7300ff;
+    color:   var(--c1_menu);
 }
 
 
@@ -86,9 +96,9 @@ main{
  
   main h1{
  
-      color: rgb(0, 0, 0);
+      color: var(--dark3);
       text-indent: 20px;
-      border-bottom: 3px solid #171717;
+      border-bottom: 3px solid var(--dark3);
       font-size: 2em;
       font-family: Agency FB;
       padding-left: 10px;
@@ -116,7 +126,7 @@ main{
     height: 50px;
     margin: auto;
     border-radius: 1px;
-    background-color: #111111;
+    background-color: var(--dark3);
  /*display: grid;
  grid-template-columns: repeat(2,1fr);
 justify-items: center;
@@ -133,11 +143,8 @@ font-family: Rockwell Condensed;
  
    }
  main div a:hover{
-   /* 
-   livro
-video_aula
-   background-image: linear-gradient(to right,   #7300ff,#171717);*/
-   background-color: #7300ff;
+ 
+   background-color: var(--c2_menu) ;
  }
   main div a#livro{
     float: left;
@@ -153,7 +160,7 @@ video_aula
  padding: 20px;
  color: #fff;
  font-family: cursive;
-    background-color: #262626;
+    background-color:  var(--dark3);
     
   }
   footer p{
