@@ -140,11 +140,31 @@ main .about-school div p{
 }
  
 main .about-school div video{
-    width: 90%;
+    width: 300px;
+ 
     margin: auto;
     border-radius: 5px;
     box-shadow: 4px 4px 10px black;
+    transition: .8s ease-in-out;
 }
+main .about-school div button{
+    width: 60px;
+    margin: 5px auto;
+    border: none;
+    background-color: #7300ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+main .about-school div video.video-pequeno{
+    width: 300px; 
+}
+main .about-school div video.video-grande{
+ width: 90%;
+ 
+ position: relative;
+}
+ 
 main .estrutura{
  display: block;
 }
