@@ -19,6 +19,8 @@ header{
  background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
  background-size: cover;
  background-position: bottom center;
+ 
+  
 }
 header #logo{
     color: #7300ff;   
@@ -127,43 +129,52 @@ main .about-school figure img{
     
     margin:10px auto ;
 }
-main .about-school div {
-    width: 100%;
+main .about-school div.pequena_div_video {
+    width: 300px;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    transition: .8s ease-in-out;
+}
+main .about-school div button{
+display: none;
+ 
+}
+
+
+
+main .about-school div.grande_div_video{
+    width: 100%;
+}
+
+main .about-school div.grande_div_video button{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    height: 40px;
+background-color: #7300ff;
+border: none;
+border-radius: 10px;
+
+
 }
 main .about-school div p{
-    text-align: center;
+ text-align: center;
     font-variant: small-caps;
     font-family:Californian FB ;
     font-weight: 900;
 }
  
 main .about-school div video{
-    width: 300px;
+    width: 100%;
  
     margin: auto;
-    border-radius: 5px;
+    border-radius: 1px;
     box-shadow: 4px 4px 10px black;
     transition: .8s ease-in-out;
 }
-main .about-school div button{
-    width: 60px;
-    margin: 5px auto;
-    border: none;
-    background-color: #7300ff;
-    color: #fff;
-    padding: 10px;
-    border-radius: 3px;
-}
-main .about-school div video.video-pequeno{
-    width: 300px; 
-}
-main .about-school div video.video-grande{
- width: 90%;
  
- position: relative;
-}
  
 main .estrutura{
  display: block;

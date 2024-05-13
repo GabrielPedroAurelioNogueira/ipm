@@ -8,16 +8,16 @@ function ampliar_img_infraestrutura(params) {
     this.classList.add('big')
     
 }
-
- img_infra.forEach((item)=>
+/*
+ img_infra.forEach((item)=>{
     item.addEventListener('click',ampliar_img_infraestrutura)
-
+ }
  )
 
  
 
 
-
+*/
 
 
 
