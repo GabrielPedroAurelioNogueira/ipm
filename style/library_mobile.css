@@ -16,9 +16,10 @@
 }
 body{
     height: 100%;
-    background-image: url(../img/img/road_light_sky_forest_mountains_snow_118189_3840x2160.jpg);
+    background-image: url(../img/img/ocean_islands_aerial_view_128834_3840x2160.jpg);
  background-attachment: fixed;
-    background-size: cover
+    background-size: cover;
+    background-position: center;
 }
 header#head1{
     background-color:var(--c2_menu);
@@ -30,7 +31,7 @@ header#head1{
 }
 
 #head1 #menu{
-background-color: var(--dark2);
+background-color: /*var(--dark2)*/#00000052;
  overflow: hidden;
 position: fixed;
  height: 100vh;
@@ -92,6 +93,7 @@ font-family:  serif;
 main{
     width: 100%;
  margin: auto;
+ transition: .5s ease-in-out;
   
 }
 
@@ -129,7 +131,10 @@ main{
     height: 50px;
     margin: auto;
     border-radius: 1px;
+   
     background-color: var(--dark3);
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px #fff;
  /*display: grid;
  grid-template-columns: repeat(2,1fr);
 justify-items: center;
@@ -138,7 +143,9 @@ align-items: center;*/
    main div a{
 text-decoration: none;
 color: #fff;
-font-family: Rockwell Condensed;
+/*font-family: Rockwell Condensed;*/
+font-family: Agency FB;
+font-size: 15pt;
  text-align: center;
  height: 65%;
  transition: .3s ease-in-out;
