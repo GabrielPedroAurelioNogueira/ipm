@@ -129,36 +129,24 @@ main .about-school figure img{
     
     margin:10px auto ;
 }
-main .about-school div.pequena_div_video {
-    width: 300px;
+main .about-school div.div_video{
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: auto;
     justify-content: center;
     transition: .8s ease-in-out;
+  
+}
+main .about-school div.div_video video{
+    width: 100%;
 }
 main .about-school div button{
 display: none;
  
 }
 
-
-
-main .about-school div.grande_div_video{
-    width: 100%;
-}
-
-main .about-school div.grande_div_video button{
-    display: block;
-    width: 300px;
-    margin: 10px auto;
-    height: 40px;
-background-color: #7300ff;
-border: none;
-border-radius: 10px;
-
-
-}
+ 
 main .about-school div p{
  text-align: center;
     font-variant: small-caps;

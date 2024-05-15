@@ -124,8 +124,8 @@ main section.about-school figure{
  
  
 }
-main section.about-school div{
-    width: 100%;
+main section.about-school div.div_video{
+    width: 500px;
     grid-column: 1;
 }
 main .about-school div video{

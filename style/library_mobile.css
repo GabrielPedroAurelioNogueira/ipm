@@ -16,6 +16,9 @@
 }
 body{
     height: 100%;
+    background-image: url(../img/img/road_light_sky_forest_mountains_snow_118189_3840x2160.jpg);
+ background-attachment: fixed;
+    background-size: cover
 }
 header#head1{
     background-color:var(--c2_menu);
@@ -96,9 +99,9 @@ main{
  
   main h1{
  
-      color: var(--dark3);
+      color: #fff;
       text-indent: 20px;
-      border-bottom: 3px solid var(--dark3);
+      border-bottom: 3px solid #fff;
       font-size: 2em;
       font-family: Agency FB;
       padding-left: 10px;
