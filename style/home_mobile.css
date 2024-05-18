@@ -9,92 +9,97 @@ body, html{
 :root{
     --font1:Courier New;
     --font2:Segoe Script;
+
+        --c1_menu:#7300ff;
+        --c2_menu:#7300ffa0;
+        --dark1:#262626;
+        --dark2:#262626a8;
+        --dark3:#171717;
+        --white:#fff;
+     
 }
 body{
   position: relative;
 }
 /*Header config*/
-header{
- max-width: 100%;
- background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+ 
+header#head1{
+    background-color:var(--c2_menu);
+    display: block;
+    color: #ffffff;
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    z-index: 3;
+    background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
  background-size: cover;
- background-position: bottom center;
  
-  
-}
-header #logo{
-    color: #7300ff;   
-    font-family:serif;
-}
-header .blue{
-    background-color: #1a1a1a;
-    display: flex;
-    color: #fff;
-  justify-content: space-between;
-  align-items: center;
-    border-bottom: 3px solid #7300ff;
-    height: 50px;
-}
-header .blue nav ul.menu{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-  
 }
 
-header .blue nav ul.menu li{
-margin: auto 5px;
+#head1 #menu{
+background-color: /*var(--dark2)*/#00000052;
+ overflow: hidden;
+position: fixed;
+ height: 100vh;
+ width: 0px;
+ display:flex;
+ flex-direction: column;
+ 
+gap:5px;
+ border-right:5px solid  var(--c1_menu);
+ transition: .8s ease-out;
+ 
 }
-
-header .blue nav ul.menu li a{
+#head1 #menu a{
+  display:flex ;
+    justify-content: center;
+ 
+ align-items: center;
+    width: 100%;
     color: #fff;
+ height: 15%;
     text-decoration: none;
-    font-size: 15pt;
-    position: relative;
-    padding: 5px 5px 0px 5px;
- 
- 
-}
-
-header .blue nav ul.menu li a::after{
-    position: absolute;
-    border-radius: 5px ;
-    top: 100%;
-    left: 0;
-    content: " ";
-    width: 0%;
-    height: 3px;
-  background-image: linear-gradient(to right, transparent,  #7300ff);
-    transition: .8s ease-in-out;
-}
-header .blue nav .menu .activo a{
-    color: #7300ff ;
-}
-header .blue nav .menu .activo a::after{
-    width: 100%;
    
+ 
+ 
+ 
 }
-header .blue nav ul.menu li:hover a::after{
-    width: 100%;
-}
-header #b {
-    color: #fff;
-    text-align: center;
-    height: 50px;
-}
+ #head1 #menu a:hover{
+    color :var(--white);
+   background-color:   var(--c2_menu);
  
-header #big{
-    text-align: center;
- height: 150px;
- background-color: #00000089;
- 
- 
- 
- 
- color: #ffffff;
- padding: 20px;
-}
+ }
+ #head1 #menu a.a{
+    background-color:  var(--c2_menu);
+ }
 
+#head1 #icons{
+    background-color: var(--dark3);
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    border-bottom: 5px solid  var(--c1_menu);
+}
+#icon{
+    cursor: pointer;
+    font-size: 30pt;
+}
+#icons h1{
+color:   var(--c1_menu);
+transition: .5s ease-in-out;
+font-family:  serif;
+}
+#icon:hover{
+    color:   var(--c1_menu);
+}
+ header section.descri{
+ color: #ffffff;
+ background-color: #00000087;
+ padding: 20px;
+ text-align: center;
+ }
 /*Main*/
  
 main{

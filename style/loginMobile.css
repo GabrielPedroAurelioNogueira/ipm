@@ -116,8 +116,8 @@ box-shadow: 4px 0px  0px  #7300ff;
 
 main{
  
-   min-width: 300px;
-    height: 525px;
+   width: 260px;
+    height: 500px;
     border-radius: 20px;
     background-color: #0000007a;
     overflow: hidden;
