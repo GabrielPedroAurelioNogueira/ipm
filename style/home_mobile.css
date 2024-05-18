@@ -123,8 +123,9 @@ main section.about-school{
 }
 main section.about-school figure{
     padding: 10px;
-    display: grid;
-    justify-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
  max-width: 100%;
  font-family:Californian FB ;
  font-weight: 900;
@@ -132,7 +133,11 @@ main section.about-school figure{
 }
 main .about-school figure img{
     
-    margin:10px auto ;
+    margin:auto ;
+}
+main .about-school figure figcaption{
+   text-align: center;
+   background-color: #6a00ff;
 }
 main .about-school div.div_video{
     width: 100%;
