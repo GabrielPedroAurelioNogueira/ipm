@@ -16,7 +16,8 @@
 }
 body{
     height: 100%;
-    background-image: url(../img/img/ocean_islands_aerial_view_128834_3840x2160.jpg);
+    /*background-image: url(../img/img/ocean_islands_aerial_view_128834_3840x2160.jpg);*/
+ 
  background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -31,7 +32,7 @@ header#head1{
 }
 
 #head1 #menu{
-background-color: /*var(--dark2)*/#00000052;
+background-color: /*var(--dark2)*/#000000aa;
  overflow: hidden;
 position: fixed;
  height: 100vh;
@@ -101,9 +102,9 @@ main{
  
   main h1{
  
-      color: #fff;
+      color: #000000;
       text-indent: 20px;
-      border-bottom: 3px solid #fff;
+      border-bottom: 3px solid #000000;
       font-size: 2em;
       font-family: Agency FB;
       padding-left: 10px;
@@ -135,10 +136,9 @@ main{
     background-color: var(--dark3);
     border: 2px solid #fff;
     box-shadow: 2px 2px 2px #fff;
- /*display: grid;
- grid-template-columns: repeat(2,1fr);
-justify-items: center;
-align-items: center;*/
+    display: flex;
+    justify-content: center;
+  
    }
    main div a{
 text-decoration: none;
@@ -150,12 +150,12 @@ font-size: 15pt;
  height: 65%;
  transition: .3s ease-in-out;
  padding-top: 15px;
- 
+ width: 100%;
    }
  main div a:hover{
  
    background-color: var(--c2_menu) ;
- }
+ }/*
   main div a#livro{
     float: left;
     width: 50%;
@@ -164,7 +164,7 @@ font-size: 15pt;
   main div a#video_aula{
     float: right;
     width: 50%;
-  }
+  }*/
   footer{
     margin-top: 50px;
  padding: 20px;

@@ -5,6 +5,7 @@ body, html{
   max-width: 100vw;
     max-height: 100vh;
     font-family: serif;
+    position: relative;
 }
 :root{
     --font1:Courier New;
@@ -27,10 +28,11 @@ header#head1{
     background-color:var(--c2_menu);
     display: block;
     color: #ffffff;
-    position: sticky;
-    top: 0%;
+    position:fixed;
+    width: 100%;
+ top: 0%;
     overflow: hidden;
-    z-index: 3;
+ z-index: 3;
     background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
  background-size: cover;
  
@@ -104,7 +106,7 @@ font-family:  serif;
  
 main{
     max-width: 800px;
-    margin:50px auto;
+    margin:100px auto;
  
     padding: 10px;
 }
@@ -122,22 +124,19 @@ main section.about-school{
     width: 100%;
 }
 main section.about-school figure{
-    padding: 10px;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
- max-width: 100%;
- font-family:Californian FB ;
- font-weight: 900;
+ max-width: 90%;
+ display: grid;
+ justify-content: center;
+ gap: 10px;
+ 
+ margin: 20px;
  
 }
 main .about-school figure img{
-    
-    margin:auto ;
+ 
 }
 main .about-school figure figcaption{
-   text-align: center;
-   background-color: #6a00ff;
+ 
 }
 main .about-school div.div_video{
     width: 100%;
@@ -199,14 +198,7 @@ main .estrutura .img-infraestrutura-direcao{
 }
 
  
-@keyframes a{
-    from{
-        background-image: linear-gradient(circle, #6a00ff , #282828);
-    }
-    to{
-        background-image:radial-gradient(circle,#282828, #6a00ff  );
-    }
-}
+ 
  /*Footer*/
 footer{
  
@@ -217,6 +209,7 @@ footer{
  
  
 }
+ 
 aside {
  
     display: flex;
