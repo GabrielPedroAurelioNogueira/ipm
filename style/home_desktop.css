@@ -27,6 +27,7 @@ main h1{
     margin-left: 20px;
     text-indent: 10px;
     border-bottom-left-radius: 5px;
+    font-size: 30pt;
 }
 main section.about-school{
     text-align: justify;

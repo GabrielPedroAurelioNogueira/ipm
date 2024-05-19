@@ -8,10 +8,13 @@ function expandir(params) {
         menu.style.width=150+'px'
     }
 }
+/*addEventListener('load',
+    function dados_nao__poperacional(){
+this.alert('Este formulário é uma simulação os teu dados não estarão seguros se o expor. tenha cuidado Formulário de teste')
+    }
+)
 
-
-
-
+*/
 
 
 

@@ -3,34 +3,13 @@
     body{
         background-image:url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg)
     }
-   /* header{
-    
-        width: 100%;
-       background-color: #0000009b;
-     height: 70px;
-     
-     position: fixed;
-   
-    z-index: 1;
-    }
-     
-     
-      nav {
-       height: 100%;
-     
-        border-bottom: 4px solid #4c00ff;
-       display: flex;
-      
-       flex-direction: row;
- justify-content: space-around;
-        
-      }
-     nav a{
-        margin-top: -3px;
-    width: 100%;
-    margin-left: 2px;
-        padding: 24px;
-     }*/
+    header #btn-icon{
+        font-size: 30pt;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        position: absolute;
+        top: 20px;
+     }
     main{
         
         width: 90%;
