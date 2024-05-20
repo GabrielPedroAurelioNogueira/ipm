@@ -141,6 +141,9 @@ main h1{
     border-bottom-left-radius: 5px;
     font-size: 30pt;
 }
+main p{
+    font-size: 12pt;
+}
 main section.about-school{
     text-align: justify;
     text-indent: 30px;
