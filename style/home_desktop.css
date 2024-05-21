@@ -206,6 +206,11 @@ main .estrutura div img{
     transition: .8s ease-in-out;
 }
  
+main .course{
+display: flex;
+ 
+}
+ 
  
  
 footer{

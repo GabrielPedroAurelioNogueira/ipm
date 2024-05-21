@@ -61,7 +61,11 @@ gap:5px;
  height: 15%;
     text-decoration: none;
    
+ transition: .3s ease-in-out
  
+ 
+ 
+ ;
  
  
 }
@@ -227,9 +231,34 @@ main .estrutura .estrutura-child{
 main .estrutura .img-infraestrutura-direcao{
     width:90%;
 }
+ main .course{
+    margin-top: 20px;
+ }
+/*Midia*/
+@media (max-width:310px) {
+    main .course{
+        display: flex;
+        overflow: scroll;
+        }
+}
 
- 
- 
+
+main .course caption{
+background-color:var(--dark1);
+color: #fff;
+padding: 5px;
+}
+ main .course table{
+    border: 2px solid black;
+    margin: auto;
+  
+    
+ }
+ main .course table th,td{
+    padding: 5px;
+    border: 1px solid #000;
+   
+ }
  /*Footer*/
 footer{
  
