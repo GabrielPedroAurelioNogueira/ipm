@@ -16,8 +16,7 @@
 }
 body{
     height: 100%;
-    /*background-image: url(../img/img/ocean_islands_aerial_view_128834_3840x2160.jpg);*/
- 
+   
  background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -116,7 +115,7 @@ main{
    main .informatica{
  display: grid;
  grid-template-columns: 1fr;
- width: 95%;
+ width: 94%;
  margin: auto;
  gap: 10px;
    }
