@@ -112,10 +112,11 @@ font-family:  serif;
 
 
 /*Main*/
+
 .painel{
  height: 300px;
  background-size: cover;
- background-attachment: scroll;
+ 
     background-position:center bottom;
 }
 .painel h2{

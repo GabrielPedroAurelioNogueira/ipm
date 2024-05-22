@@ -8,10 +8,11 @@ html, body{
 }
 body{
  
-    background-attachment: fixed;
- background-image: url(../img/img/road_light_sky_forest_mountains_snow_118189_3840x2160.jpg);
-    background-size: cover;
+ 
+ background-image: url(../img/ipmdireção.jpg);
+ background-size: cover;
     height: 100vh;
+    background-position: center;
    position: relative;
 }
 header{
@@ -64,8 +65,9 @@ header nav .ativo{
  
  
 main{
- 
-   width: 240px;
+ /*240
+ 419*/
+   width:80%;
     height: 419px;
     border-radius: 20px;
     background-color: #0000007a;
