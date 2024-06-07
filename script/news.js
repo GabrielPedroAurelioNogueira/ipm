@@ -5,7 +5,7 @@ var header=document.getElementById('head1')
 function show_menu(params) {
     if (menu.style.display=='block') {
         menu.style.display='none'
-       
+       btn_menu.innerHTML=3
         header.style.height='50px'
     } else {
         menu.style.display='block'

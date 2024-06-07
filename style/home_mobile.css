@@ -115,11 +115,18 @@ font-family:  serif;
     background-size: cover;
     background-position: center  ;
     height: 200px;
+    color: #000000;
     padding: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
- }
  
+ }
+ .painel small{
+    color:rgb(0, 0, 0);
+    background-color: #00000000;
+    padding: 5px;
+  
+ }
  .blue{
  height: 50px;
     margin:-16px 0 0  0;

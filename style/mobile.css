@@ -8,11 +8,15 @@ body, html,ul{
     font-family: Arial, Helvetica, sans-serif;
  
 }
+body{
+ 
+ 
+}
  
  header{
-   background-color: #1f1f1f;
+   background-color: #000000f2;
  
- 
+  
  }
  header #icons{
    display: flex;
@@ -26,6 +30,10 @@ body, html,ul{
    font-size: 2.5em;
    color:#fff;
    cursor: pointer;
+   transition: .6s ease-in-out;
+ }
+ #icon:hover{
+  color: #7700ff;
  }
  header #menu{
    display:none;
@@ -33,7 +41,7 @@ body, html,ul{
  }
  header #menu ul{
    list-style: none;
-   width: 100%;
+   width: 90%;
    padding: 10px;
     
  }
@@ -41,16 +49,57 @@ body, html,ul{
    display: block;
   
    text-align: center;
-   margin: 10px auto;
-   border-bottom: 2px solid white;
+ 
+ margin: auto;
+ width: 95%;
+ padding: 10px;
+ 
  }
  header #menu ul li a{
-  width: 100%;
+ display: block;
+ border-bottom: 2px solid white;
+   text-align: left;
    text-decoration: none;
-   color: #fff;
+   color: #ffffff;
+   font-size: 14pt;
+
  }
  header #menu ul li:hover a{
    color:  #8a2be2;
+ 
+ }
+ menu{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  align-items: center;
+ }
+ menu a{
+  padding: 5px;
+  text-decoration: none;
+ border-bottom: 2px solid #7700ff;
+  margin: 2px;
+  color: #000000;
+
+ }
+ menu a:hover{
+  color: #7700ff;
+ }
+ button{
+  border: none;
+ 
+ 
+ color: #fff;
+  position: fixed;
+bottom: 3%;
+  right:1%;
+  transform: translate(-50%-50%);
+ }
+ button a{
+  color: #fff;
+  text-decoration: none;
+ padding: 15px;
+ background-color: #7700ff9f;
  
  }
 main{
@@ -60,6 +109,10 @@ main{
     margin: auto;
     text-align: justify;
     text-indent: 30px;
+    padding: 20px;
+}
+main p{
+ font-size: 10pt;
 }
 main h1{
    border-bottom: 3px solid  black;
@@ -192,3 +245,58 @@ display: grid;
 .grid3 .grid3-child1 div img{
   max-width: 90%;
 }*/
+
+
+ /*Footer*/
+ footer{
+ 
+  color: #fff;
+  text-align: center;
+background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+background-size:  cover;
+ 
+
+}
+
+footer aside  {
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: #00000085;
+  align-items: center;
+}
+footer aside #midia{
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+footer aside .midia img{
+width: 30px;
+border-radius: 50%;
+transition: .5s ease-in-out;
+
+}
+
+footer aside .midia img:hover{
+  box-shadow: 0px 0px 20px #ffffff;
+}
+
+footer aside{
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer aside div{
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+
+
+footer{
+  margin-bottom: 40px;
+}
+footer p a img{
+  width: 150px;
+}

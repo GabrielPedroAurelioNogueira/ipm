@@ -3,15 +3,23 @@
 --c1:#7f00fe70;
 }
 @media screen and (min-width:768px) {
+  body, html{
+ 
+    height: 100vh;
+  }
  header{
+  position: sticky;
+  top: 0;
 display: flex;
 justify-content: space-between;
-padding: 20px;
+padding: 10px;
+background-color:  #1f1f1f;
+ 
  }
  header #menu{
   position: relative;
   display:block ;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
  }
 #icon{
   display: none;
@@ -23,17 +31,23 @@ header #menu ul{
 }
 header #menu ul li{
   margin: 10px;
-  font-size: 1.35em;
+ 
  display: block;
  border: none;
  transition: .5s ease-in-out;
 }
 header #menu ul li{
   position: relative;
+ 
+}
+header #menu ul li a{
+  border: none;
+  font-size: 1.5em;
+ 
 }
 header #menu ul li a::after{
   position: absolute;
-  top: 100%;
+  top: 75%;
   left: 0;
   content: "";
   width: 0%;
@@ -52,7 +66,7 @@ main{
   max-width: 800px;
 }
 main .body-stydent{
-  width: 100%;
+ 
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
@@ -64,7 +78,7 @@ main .body-stydent div:nth-child(n+4){
   align-items: center;
 }
 main .body-stydent div img{
-  width: 100%;
+ 
 }
 main .body-stydent #add-body-stydent{
   background-color: #6a00ff;
@@ -78,6 +92,7 @@ main .body-stydent{
 
 }}
 /*
+
 main section#flex{
   margin: 100px   auto 100px auto;
  display: flex;
@@ -177,3 +192,4 @@ grid-template-columns: repeat(2,1fr);
   
   grid-column: 1 /3;
 }*/
+
