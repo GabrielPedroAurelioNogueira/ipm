@@ -22,3 +22,6 @@ function change_size(){
         menu.style.display='none'
     }
 }
+function ativo(params) {
+    
+}
