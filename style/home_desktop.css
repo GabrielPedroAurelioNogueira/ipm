@@ -115,9 +115,8 @@ font-family:  serif;
 
 .painel{
  height: 300px;
- background-size: cover;
+ background-size: contain;
  
-    background-position:center bottom;
 }
 .painel h2{
   font-size: 25pt;
