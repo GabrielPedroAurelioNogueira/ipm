@@ -10,12 +10,11 @@ body, html{
 :root{
     --font1:Courier New;
     --font2:Segoe Script;
-
-        --c1_menu:#7300ff;
-        --c2_menu:#7300ffa0;
-        --dark1:#262626;
-        --dark2:#262626a8;
-        --dark3:#171717;
+    --c1_menu:#001aff;
+    --c2_menu:#0026ffa0;
+        --dark1:#1f1f1f;
+        --dark2:#000000a8;
+        --dark3:#141414;
         --white:#fff;
      
 }
@@ -38,7 +37,7 @@ header#head1{
 }
 
 #head1 #menu{
-background-color:#000000be;
+background-color:#001f2085;
  overflow: hidden;
 position: fixed;
  height: 100vh;
@@ -48,7 +47,7 @@ position: fixed;
  
 gap:5px;
  border-right:5px solid  var(--c1_menu);
- transition: .8s ease-out;
+ transition: .4s ease-out;
  
 }
 #head1 #menu a{
@@ -61,7 +60,7 @@ gap:5px;
  height: 15%;
     text-decoration: none;
    
- transition: .3s ease-in-out
+ transition: .2s ease-in-out
  
  
  

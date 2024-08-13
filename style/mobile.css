@@ -33,7 +33,7 @@ body{
    transition: .6s ease-in-out;
  }
  #icon:hover{
-  color: #7700ff;
+  color: #001aff;
  }
  header #menu{
    display:none;
@@ -65,8 +65,8 @@ body{
 
  }
  header #menu ul li:hover a{
-   color:  #8a2be2;
- 
+   color:  #2b37e2;
+ border-color: #001aff;
  }
  menu{
   display:grid;
@@ -77,19 +77,19 @@ body{
  menu a{
   padding: 5px;
   text-decoration: none;
- border-bottom: 2px solid #7700ff;
+ border-bottom: 2px solid #1900ff;
   margin: 2px;
   color: #000000;
 
  }
  menu a:hover{
-  color: #7700ff;
+  color: #003cff;
  }
  button{
   border: none;
  
  
- color: #fff;
+ 
   position: fixed;
 bottom: 3%;
   right:1%;
@@ -99,7 +99,7 @@ bottom: 3%;
   color: #fff;
   text-decoration: none;
  padding: 15px;
- background-color: #7700ff9f;
+ background-color: #0400ff9f;
  
  }
 main{
