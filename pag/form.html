@@ -29,26 +29,21 @@
     <main>
     <section id="img"></section>
     <section id="form">
-        <h1 id="logo">IPM</h1>
+        <h1 id="logo">Instituto Politecnico do Maiombe</h1>
         <form action="#" method="post" autocomplete="on">
             <div>
-                <label for="nome">Nome</label><br>
-                <input type="text" name="nome" id="nome" class="area-campo"    itemprop="name" required autocomplete="name"><br>
+                
+                <input type="text" name="nome" id="nome" class="area-campo"    itemprop="name" required autocomplete="name" placeholder="Nome"><br>
             </div>
             <div>
-                <label for="email">E-mail</label><br>
-                <input type="email" name="email" id="email" itemprop="email" class="area-campo" required autocomplete="email"><br>
+            
+                <input type="email" name="email" id="email" itemprop="email" class="area-campo" required autocomplete="email" placeholder="E-mail"><br>
             </div>
-             
-            <div>
-                <label for="password">Password</label><br>
-                <input type="password" name="password" id="password"  required autocomplete="new-password"class="area-campo"   minlength="8"  maxlength="12" itemprop="password"><br>
-            </div>
-        
+         
                 
                     <div>
-                        <span>Selecione o seu curso</span>
-                        <input type="text" list="sd">
+                   
+                        <input type="text" list="sd" placeholder="Seletione o seu curso">
                         <datalist id="sd">
                             <option value="Infor">Informática</option>
                             <option value="Infor de Gestão">Informática de Gestão</option>
@@ -63,7 +58,7 @@
      
             <input type="submit" value="Cadastrar" id="login" onclick="adicionar()">
  </div>
- <a href="#" id="forgive">Já estou cadastrado</a>
+ 
         </form>
     </section>
     </main>

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @media screen and (min-width:768px) and (max-width:992px) {
+    
     body{
         background-image:url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg)
     }
@@ -17,6 +18,10 @@
         border: none
         ;
         box-shadow: 20px 10px 50px black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate( -50%,-50%);
     }
     main #img{
         float: left;
@@ -45,6 +50,10 @@ main{
     height: 550px
     ;
     border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
  
 }
 main #img{
