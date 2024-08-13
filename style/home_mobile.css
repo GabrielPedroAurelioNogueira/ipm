@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(font_cores.css);
 body, html{
     margin: 0;
     padding: 0;
@@ -10,8 +11,7 @@ body, html{
 :root{
     --font1:Courier New;
     --font2:Segoe Script;
-    --c1_menu:#001aff;
-    --c2_menu:#0026ffa0;
+  
         --dark1:#1f1f1f;
         --dark2:#000000a8;
         --dark3:#141414;
@@ -24,7 +24,7 @@ body{
 /*Header config*/
  
 header#head1{
-    background-color:var(--c2_menu);
+    background-color:var(--orange-red);
     display: block;
     color: #ffffff;
     position:fixed;
@@ -37,7 +37,7 @@ header#head1{
 }
 
 #head1 #menu{
-background-color:va;
+background-color:var(--menu-transp);
  overflow: hidden;
 position: fixed;
  height: 100vh;
@@ -46,7 +46,7 @@ position: fixed;
  flex-direction: column;
  
 gap:5px;
- border-right:5px solid  var(--c1_menu);
+ border-right:5px solid  var(--orange-red);
  transition: .4s ease-out;
  
 }
@@ -62,19 +62,17 @@ gap:5px;
    
  transition: .2s ease-in-out
  
- 
- 
  ;
  
  
 }
  #head1 #menu a:hover{
-    color :var(--white);
-   background-color:   var(--c2_menu);
+ 
+   background-color:   var(--grey);
  
  }
  #head1 #menu a.a{
-    background-color:  var(--c2_menu);
+    background-color: var(--grey);
  }
 
 #head1 #icons{
@@ -84,19 +82,19 @@ gap:5px;
     justify-content: space-between;
     align-items: center;
     padding:10px 20px;
-    border-bottom: 5px solid  var(--c1_menu);
+    border-bottom: 5px solid  var(--orange-red);
 }
 #icon{
     cursor: pointer;
     font-size: 30pt;
 }
 #icons h1{
-color:   var(--c1_menu);
+color:   #7700ff;
 transition: .5s ease-in-out;
 font-family:  serif;
 }
 #icon:hover{
-    color:   var(--c1_menu);
+    color:   var(--orange-red);
 }
  header section.descri{
  color: #ffffff;
@@ -110,18 +108,20 @@ font-family:  serif;
    
  }
  .painel{
-    background-image: url(../img/ipmdireção.jpg);
-    background-size: cover;
-    background-position: center  ;
+    background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
+ 
+ 
+ 
+ background-attachment: fixed;
     height: 200px;
-    color: #ffffff;
+    color: #000000;
     padding: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
  
  }
  .painel small{
-    color:rgb(255, 255, 255);
+    color:#000000;
    
     padding: 5px;
   
@@ -254,11 +254,15 @@ main .course caption{
 background-color:var(--dark1);
 color: #fff;
 padding: 5px;
+border: 5px solid var(--dark1);
 }
  main .course table{
-    border: 2px solid black;
+    border: 2px solid #000000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin: auto;
 width: 100%;
+border-collapse: collapse;
     
  }
  main .course table th,td{

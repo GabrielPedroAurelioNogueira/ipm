@@ -52,14 +52,14 @@ header #menu ul li a::after{
   content: "";
   width: 0%;
   height: 3px;
- background-image: linear-gradient(to right, transparent,#2b37e2);
+ background-image: linear-gradient(to right, transparent,#ff4500);
   transition: .8s ease-in-out;
 }
 header #menu ul li:hover a::after{
   width: 100%;
 }
 header #menu ul li:hover a{
-color: #2b65e2;
+color: #ff4500;
 }
 
 main{
@@ -81,7 +81,7 @@ main .body-stydent div img{
  
 }
 main .body-stydent #add-body-stydent{
-  background-color: #0011ff;
+  background-color: #ff4500;
   grid-row: 2/6;
   grid-column: 1;
 display: block;
