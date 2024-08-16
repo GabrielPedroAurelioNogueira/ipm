@@ -17,7 +17,7 @@ body{
    position: relative;
 }
 header{
-  background-color: #212121;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
@@ -25,14 +25,25 @@ header{
  height: 10.5%;
 }
  header #btn-icon{
-    font-size: 30pt;
+    
     cursor: pointer;
-    transition: .5s ease-in-out;
-    position: absolute;
-    top: -10px;
+    font-size: 30pt;
+    font-weight: 900;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+       color: #ffffff;
+       border: 2px solid var(--orange-red) ;
+       border-radius: 5px;
+       background-color: #ff3c00;
+       width: 30px;
+       height: 45px;
+       transition: .2s ease-in-out;
+    
  }
  header #btn-icon:hover{
  color: var(--orange-red);
+ background-color: transparent;
  }
 header nav{
     z-index: 3;
@@ -41,7 +52,7 @@ left: 0%;
 top:11%;
 height: 90%;
 width:0px;
-background-color: #21212148;
+background-color: #fff;
  display: grid;
  gap: 5px;
  justify-items: center;
@@ -56,12 +67,15 @@ header nav  a{
  width: 100%;
  transition: .3s ease-in;
  font-family: Arial, Helvetica, sans-serif;
+ color: #000;
 }
 header nav  a:hover{
     background-color:   var(--grey);
+    color: var(--orange-red);
 }
 header nav .ativo{
     background-color: var(--grey);
+    color: var(--orange-red);
 }
  
  
