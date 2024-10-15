@@ -113,8 +113,8 @@ font-family:  serif;
 
 /*Main*/
 
-.painel{
- height: 300px;
+.painel-da-inicial{
+ height: 400px;
  background-size: cover;
  
 }
@@ -125,6 +125,10 @@ font-family:  serif;
  
  
  
+}
+.placa_baixo{
+margin-top: 30px;
+
 }
 /*Main*/
 
@@ -148,6 +152,7 @@ main section.about-school{
     text-align: justify;
     text-indent: 30px;
     display:grid;
+
  
     
  
@@ -214,11 +219,17 @@ main .estrutura div img{
     width: 100%;
     transition: .8s ease-in-out;
 }
+ /* Curso */
+main .cursos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
  
-main .course{
-display: flex;
- 
-}
+    }
+    main .cursos .curso{
+     border:2px solid var(--green);
+     height: 150px;
+    }
  
  
  

@@ -1,10 +1,11 @@
 @charset "utf-8";
 :root{
---orange-red:#ff4500;
---dark-orange:#ff8c00;
---orange:#ffa500;
+--green:#00cc99;
 --grey:#808080;
 --dark-gray:#a9a9a9;
 --menu-transp:#000000aa;
+--c1:#000;
+--font-title:SimSun;
+--font-body:Yu Gothic Medium;
 }
  
