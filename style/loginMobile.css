@@ -12,94 +12,15 @@ body{
  
  background-image: url(../img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash2.jpg);
  background-size: cover;
-    height: 100vh;
-  
-   position: relative;
+
 }
 
 /*Header config*/
  
-header#head1{
-    background-color:var(--green);
-    display: block;
-    color: #ffffff;
-    position:fixed;
-    width: 100%;
-    top: 0%;
-    overflow: hidden;
-    z-index: 3;
-}
 
-#head1 #menu{
-    background-color:#ffffff;
-    overflow: hidden;
-    position: fixed;
-    height: 100vh;
-    width: 0px;
-    display:flex;
-    flex-direction: column;
-    gap:5px;
-    border-right:5px solid  var(--green);
-    transition: .4s ease-out;
-
-}
-#head1 #menu a{
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: #000;
-    height: 15%;
-    text-decoration: none;
-    transition: .2s ease-in-out;
-
- 
-}
- #head1 #menu a:hover{
- 
-   background-color:   var(--green);
-   color: #fff;
- }
- #head1 #menu a.a{
- 
-    background-color:   var(--green);
-    color: #fff;
- }
-
-#head1 #icons{
-    background-color:#ffffff  ;
- 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px 20px;
-    border-bottom: 5px solid  var(--green);
-}
-#icon{
-    cursor: pointer;
- font-size: 30pt;
- display: grid;
- justify-content: center;
- align-items: center;
-    color:#fff;
-    border: 2px solid var(--green) ;
-    border-radius: 5px;
-    background-color: var(--green);
-    width: 30px;
-    height: 45px;
-    transition: .2s ease-in-out;
-}
-#icons img{
-width: 100px;
-}
-#icon:hover{
-    background-color: transparent;
-    color:   var(--green);
-}
- 
 main{
  
-    border-radius: 20px;
+   border-radius: 20px;
     background-color: #00000009;
     overflow: hidden;
      
@@ -128,7 +49,7 @@ main form{
 text-align: center;
  display: grid;
 }
-div{
+form div{
     margin: 20px;
 }
 div input:focus{
@@ -139,24 +60,24 @@ div input{
    background-color: #00000000;
 
  border: none;
- border-bottom: 1px solid  #000000;
+ border-bottom: 1px solid  var(--green);
     height: 30px;
     width: 200px;
 }
  div input::placeholder{
-    color: #000000;
+    color:#000000;
  }
  
  
 
 input[type="submit"]{
     width: 90%;
-    background-color:var(--orange-red);
+    background-color:var(--green);
     color: #ffffff;
     height: 40px;
  
     transition: all .5s ease-in-out;
-    border: 2px solid var(--orange-red);
+    border: 2px solid var(--green);
     border-radius:2px ;
  
     font-family: Arial, Helvetica, sans-serif;
@@ -165,7 +86,7 @@ input[type="submit"]{
 }
  
 input[type="submit"]:hover{
- color: var(--orange-red);
+ color: var(--green);
  background-color: #fff;
 
 }
