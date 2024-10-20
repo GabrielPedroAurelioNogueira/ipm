@@ -22,7 +22,7 @@ header#head1{
     flex-direction: column;
     gap:5px;
     border-right:5px solid  var(--green);
-    transition: .4s ease-out;
+    transition: .35s ease-in-out;
 
 }
 #head1 #menu a{
