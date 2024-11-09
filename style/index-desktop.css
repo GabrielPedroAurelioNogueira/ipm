@@ -1,7 +1,4 @@
-:root{
- 
---c1:#7f00fe70;
-}
+@import url(font_cores.css);
 @media screen and (min-width:768px) {
   body, html{
  
@@ -13,7 +10,7 @@
 display: flex;
 justify-content: space-between;
 padding: 10px;
-background-color:  #1f1f1f;
+
  
  }
  header #menu{
@@ -52,16 +49,20 @@ header #menu ul li a::after{
   content: "";
   width: 0%;
   height: 3px;
- background-image: linear-gradient(to right, transparent,#ff4500);
+ background-image: linear-gradient(to right, transparent,var(--green));
   transition: .8s ease-in-out;
 }
 header #menu ul li:hover a::after{
   width: 100%;
 }
 header #menu ul li:hover a{
-color: #ff4500;
+color: var(--green);
 }
+/*
 
+==============================================================MAIN===================================================================
+
+*/
 main{
   max-width: 800px;
 }
@@ -81,7 +82,7 @@ main .body-stydent div img{
  
 }
 main .body-stydent #add-body-stydent{
-  background-color: #ff4500;
+  background-color: var(--green);
   grid-row: 2/6;
   grid-column: 1;
 display: block;

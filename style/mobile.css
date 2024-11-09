@@ -1,5 +1,5 @@
 @charset "UTF-8";
- 
+ @import url(font_cores.css);
  
 body, html,ul{
     padding: 0;
@@ -14,7 +14,7 @@ body{
 }
  
  header{
-   background-color: #000000f2;
+   background-color: #00000079;
  
   
  }
@@ -27,13 +27,19 @@ body{
 
  }
  #icon{
-   font-size: 2.5em;
-   color:#fff;
+   font-size: 2.7em;
+   width: 25px;
+   color:#ffffff;
    cursor: pointer;
    transition: .6s ease-in-out;
+   background-color:var(--green);
+   border-radius: 5px;
+ border: 2px solid var(--green);
  }
  #icon:hover{
-  color:#ff4500;
+  color:var(--green);
+  border-color: var(--green);
+  background-color: #fff;
  }
  header #menu{
    display:none;
@@ -65,8 +71,8 @@ body{
 
  }
  header #menu ul li:hover a{
-   color:  #ff4500;
- border-color: #ff4500;
+   color:  var(--green);
+ border-color: var(--green);
  }
  menu{
   display:grid;
@@ -77,18 +83,18 @@ body{
  menu a{
   padding: 5px;
   text-decoration: none;
- border-bottom: 2px solid #ff4500;
+ border-bottom: 2px solid var(--green);
   margin: 2px;
   color: #000000;
 
  }
  menu a:hover{
-  color: #ff4500;
+  color: var(--green);
  }
  button{
   border: none;
  
- background-color: #ff44008f;
+ background-color: var(--green);
  padding: 15px;
   position: fixed;
 bottom: 3%;
