@@ -55,7 +55,7 @@ div input:focus{
   background-color: transparent;
 }
 div input{
-   
+   outline: none;
    background-color: #00000000;
 
  border: none;

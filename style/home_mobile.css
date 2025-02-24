@@ -34,7 +34,7 @@ height: 380px;
     color: #ffffff;
    padding: 10px;
     text-align: center;
-    font-family:var(--font-title);
+    font-family:+var(--font-title);
     font-size: 20pt;
  
  }
