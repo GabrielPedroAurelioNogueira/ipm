@@ -1,0 +1,30 @@
+.tela{
+width: 100%;height: 300px;
+background-color: #0000004f;
+ 
+} 
+.tela a{
+   width: 100%;
+  display: grid;
+
+   background-size: cover;
+   height: 100%;
+}
+.tela >a >.titulo{
+   color: #fff;
+display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.tela >a >.titulo h1{
+   font-size: 30pt;
+   background-color: rgba(0, 0, 0, 0.562);
+}
+.tela >a >.info{
+   background-color: rgba(0, 0, 0, 0.548);
+   color: #fff;
+   
+display: flex;
+justify-content: center;
+align-items: center;
+}
